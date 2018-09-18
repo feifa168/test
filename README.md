@@ -37,14 +37,24 @@
     this is a line code，有背景色
 
 ## 代码段
+### 连续两个tab也是代码段
+		这是两个table开头的内容
 ### 俩小引号包起来是一段代码
 `this is code`
 ### 仨小引号包起来是一段代码段
 ```三个小引号后面不应该接东西，接了也忽略
-三个`符号包起来表示
-一段代码
+//三个`符号包起来表示
+//一段代码
 public static void test1() {
 }
+```
+
+``` java
+@Test
+public void test_1(int a, String s) { System.out.println(a+s);}
+```
+``` c++
+public void test_1(int a, string s) { cout<<a <<" " << s << endl;}
 ```
 
 
