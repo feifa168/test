@@ -37,16 +37,29 @@
     this is a line code，有背景色
 
 ## 代码段
+
+### 一个tab开头是代码段
+	这是一个table开头的内容
+
 ### 俩小引号包起来是一段代码
 `this is code`
 ### 仨小引号包起来是一段代码段
-```三个小引号后面不应该接东西，接了也忽略
-三个`符号包起来表示
-一段代码
+```c++ 三个小引号后面不应该接东西，接了也忽略，但可以指定编程语言
+
+//三个`符号包起来表示
+//一段代码
 public static void test1() {
 }
 ```
 
+
+``` java
+@Test
+public void test_1(int a, String s) { System.out.println(a+s);}
+```
+``` c++
+public void test_1(int a, string s) { cout<<a <<" " << s << endl;}
+```
 
 
 ## 表格
@@ -206,4 +219,8 @@ A[Square Rect] -- Link text --> B((Circle))
 A --> C(Round Rect)
 B --> D{Rhombus}
 C --> D
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> b83f597c9919447bef42186aef13006aecc87ffd
